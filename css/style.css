@@ -12,10 +12,11 @@
 }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: #2C3E50;
+    --second-bg-color: #34495E;
+
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: #A5C8D6;
     }
 
 html {
@@ -85,9 +86,9 @@ section {
 }
 .home-img img {
     width: 35vw;
-    animation: floatImage 4s ease-in-out infinite;
+    /* animation: floatImage 4s ease-in-out infinite; */
 }
-@keyframes floatImage {
+/* @keyframes floatImage {
     0% {
         transform: translateY(0);
     }
@@ -97,7 +98,7 @@ section {
     100% {
         transform: translateY(0);
     }
-}
+} */
 
 .home-content h3 {
     font-size: 3.2rem;
@@ -146,15 +147,21 @@ span {
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size:  1.6rem;
+    /* box-shadow: 0 0 1rem var(--main-color); */
+    font-size:  1.7rem;
     color: var(--second-bg-color);
     letter-spacing:  .1rem;
     font-weight: 600;
+
+    text-align: center;
+    min-width: 150px; /* Ensures same size */
 }
 
+
 .btn:hover {
-box-shadow: none;
+/* box-shadow: none; */
+box-shadow: 0 0 1rem var(--main-color);
+
 }
     
 .about {
